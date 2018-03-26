@@ -1,0 +1,113 @@
+body{
+    background-color: azure;
+}
+.kotak{
+    width: 400px;
+    height:200px;
+    background: blue;
+    padding: 2%;
+    margin:0 auto;
+}
+.kotak .njero{
+    width: 85%;
+    height: 75%;
+    border-radius: 5%;
+    background: burlywood;
+    padding: 7%;
+    text-align: justify;
+}
+
+.border {
+    width: 300px;
+    height: 150px;
+    margin:0 auto;
+    border: 16px solid transparent;
+    border-image: 16 repeating-linear-gradient(
+        -45deg, black 0, black 1em, transparent 0, transparent 2em,
+        #58a 0, #58a 3em, transparent 0, transparent 4em);
+  }
+  
+  .border .surat {
+    background: white;
+    width: 100%;
+    height: 100%;
+  }
+  .border .surat .isne{
+    text-align: justify;
+    padding: 20px;
+  }
+
+  .jajargenjang{
+      width: 200px;
+      height: 50px;
+      display: inline-block;
+      background: black;
+      transform: skew(30deg);
+      font-size: 20px;
+      margin: 20px;
+  }
+  .jajargenjang .isine{
+      margin: 10px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      text-align: center;
+      transform: skew(-30deg);
+  }
+
+
+  .octagon {
+	width: 200px;
+	height: 155px;
+	background: blue;
+    position: relative;
+    margin:0 auto;
+    }
+    .octagon .tulisane{
+        color: yellow;
+        padding-top: 15%;
+        margin: 10%;
+        text-align: justify;
+    }
+    .octagon:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-bottom: 20px solid #5688AB;
+        border-left: 20px solid azure;
+        border-right: 20px solid azure;
+        width: 80%;
+        height: 0;
+    }
+    .octagon:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top: 20px solid #5688AB;
+        border-left: 20px solid azure;
+        border-right: 20px solid azure;
+        width: 80%;
+        height: 0;
+    }
+   
+  .diagram{
+	  float:left;
+    margin:15px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #9ACD32;
+      background-image: linear-gradient(to right, transparent 50%, #655 0);
+  }
+  .diagram .dig {
+    content: '';
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    transform-origin: left;
+    
+  }
+ 
